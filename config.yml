@@ -2,6 +2,8 @@ CONFIGURATION:
   PREFIX: '&8[&eCENSOR-RELOADED&8] '
   METRICS:
     enable: true
+  UpdateChecker:
+    enable: true
   NOTIFY_PROCESS:
     send_warning: '&7ACTION:&eWARN &7Player &e[player] &7tried write &c[word] !'
     send_for_admin: '&7ACTION:&eWARN &7Player &e[player] &7tried write &c[word] !'
@@ -9,6 +11,7 @@ CONFIGURATION:
     REPLACE: '****'
     clear_message: '&aChat has been cleared by [player] !'
   AntiSpam:
+    enable: true
     time_block: 5
     send_warning: '&cFor write please wait &e[time] &c!'
   PreventCapsLock:
