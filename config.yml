@@ -13,7 +13,7 @@ CONFIGURATION:
   AntiSpam:
     enable: true
     time_block: 5
-    send_warning: '&cFor write please wait &e[time] &c!'
+    send_warning: '&cPlease dont repat same message !'
   PreventCapsLock:
     sensitive: 10
     send_warning: '&cUps.. you write more letters with caps lock &7(&6min: &e[sensitive] &6you write&7: &e[you_write]&7) !'
