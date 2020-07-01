@@ -12,5 +12,6 @@ commands:
   argument-zero:
     - "&a=========== [CensorReloaded] ==========="
     - "&eAll available commands !"
+    - "&6/censor chatclear - Cleans chat for players !"
     - "&6/censor reload - Reloading configs"
     - "&a=========== [CensorReloaded] ==========="
