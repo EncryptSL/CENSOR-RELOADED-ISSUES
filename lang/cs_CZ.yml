@@ -12,5 +12,6 @@ commands:
   argument-zero:
     - "&a=========== [CensorReloaded] ==========="
     - "&eVšechny dostupné příkazy !"
+    - "&6/censor chatclear - Vyčistí hráčům chat !"
     - "&6/censor reload - Znovu načte konfiguraci"
     - "&a=========== [CensorReloaded] ==========="
