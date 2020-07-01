@@ -1,28 +1,15 @@
-CONFIGURATION:
-  PREFIX: '&8[&eCENSOR-RELOADED&8] '
-  METRICS:
-    enable: true
-  UpdateChecker:
-    enable: true
-  NOTIFY_PROCESS:
-    send_warning: '&7ACTION:&eWARN &7Player &e[player] &7tried write &c[word] !'
-    send_for_admin: '&7ACTION:&eWARN &7Player &e[player] &7tried write &c[word] !'
-  CHAT:
-    REPLACE: '****'
-    clear_message: '&aChat has been cleared by [player] !'
-  AntiSpam:
-    enable: true
-    time_block: 5
-    send_warning: '&cPlease dont repat same message !'
-  PreventCapsLock:
-    sensitive: 10
-    send_warning: '&cUps.. you write more letters with caps lock &7(&6min: &e[sensitive] &6you write&7: &e[you_write]&7) !'
-  WebSite:
-    control: true
-    send_warning: '&cAdvertisement no allowed on this server !'
-    param_rgx:
-      - ^(.* + \W|\d|_|.*|)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)+( .*)?$
-  IP_Adress:
-    control: true
-    send_warning: '&cIP: Advertisement no allowed on this server !'
-    param_rgx: ^(.* + \W|\d|_|.*)?\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d\_|.*)?$
+CensorReloaded:
+  setup:
+    prefix: '&5CENSOR-RELOADED &3> &c'
+    lang: en_US
+    bstats: true
+  node_module:
+    ip: true
+    spam: true
+    adw: true
+    bad: true
+  filters:
+    capssens: 15
+    adw_rgx:
+    - '^(.* + \W|\d|_|.*|)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)+(.*)?$'
+    ip_rgx: '^(.* + \W|\d|_|.*)?\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\\ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d\_|.*)?$'
