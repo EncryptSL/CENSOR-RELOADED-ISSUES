@@ -1,15 +1,22 @@
 CensorReloaded:
   setup:
-    prefix: '&5CENSOR-RELOADED &3> &c'
-    lang: en_US
+    prefix: "&5CENSOR-RELOADED &3> &c"
+    lang: "en_US"
     bstats: true
+  node_check_cmd:
+    - /msg
+    - /pm
+    - /tell
+    - /r
+    - /w
   node_module:
-    ip: true
+    pmCheck: true
     spam: true
     adw: true
     bad: true
+    ip: true
   filters:
     capssens: 15
     adw_rgx:
-    - '^(.* + \W|\d|_|.*|)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)+(.*)?$'
-    ip_rgx: '^(.* + \W|\d|_|.*)?\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\\ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d\_|.*)?$'
+      - '^(.* + \W|\d|_|.*|)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)+( .*)?$'
+    ip_rgx: '^(.* + \W|\d|_|.*)?\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d\_|.*)?$'
