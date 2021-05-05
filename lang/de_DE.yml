@@ -1,5 +1,5 @@
 replace: "******"
-chatclear_notifier: &aChat wurde von [Spieler] gelöscht"
+chatclear_notifier: "&aChat wurde von [Spieler] gelöscht"
 capslock_notifier: "Ups... Sie schreiben mehr Buchstaben mit Feststelltaste &7(&6minimal ist: &e[sensitive] &6aber Sie schreiben&7: &e[you_write]&7)"
 antispam_notifier: "Bitte wiederholen Sie die gleiche Meldung nicht!"
 adw_notifier: "Dieser Server blockiert Url-Links"
