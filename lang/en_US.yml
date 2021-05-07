@@ -14,4 +14,5 @@ commands:
     - "&eAll available commands !"
     - "&6/censor chatclear - Cleans chat for players !"
     - "&6/censor reload - Reloading configs"
+    - "&6/censor setlang <lang> - This command sets language !"
     - "&a=========== [CensorReloaded] ==========="
