@@ -1,0 +1,21 @@
+replace: "******"
+chatclear_notifier: "&aO chat foi limpo por [player]"
+capslock_notifier: "Ups.. você escreveu mais letras com caps lock &7(&6mínimo é: &e[sensitive] &6mas você escreveu&7: &e[you_write]&7)"
+antispam_notifier: "Por favor não repita a mesma mensagem !"
+adw_notifier: "Este servidor está bloqueando links de url"
+ip_notifier: "Este servidor está bloqueando endereços ip de outros servidores !"
+plugin_reloaded: "O plugin foi carregado com sucesso !"
+no_permissions: "Você não tem as permissões necessárias !"
+warning_to_team: "&PERIGO &7Jogador &e[player] &7escreveu &c[word] !"
+
+commands:
+  command_setlang_success: "&aJO idioma de configuração foi definido para  [lang] !"
+  command_setlang_usage_error: "&cErro /censor setlang <lang>"
+  command_setlang_lang_error: "&cEste idioma [lang] não existe!"
+  argument-zero:
+    - "&a=========== [CensorReloaded] ==========="
+    - "&eTodos comandos disponíveis !"
+    - "&6/censor chatclear - Limpa o chat para players !"
+    - "&6/censor reload - Recarrega configurações"
+    - "&6/censor setlang <lang> - This command sets language !"
+    - "&a=========== [CensorReloaded] ==========="
