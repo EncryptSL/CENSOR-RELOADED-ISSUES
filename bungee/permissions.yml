@@ -1,0 +1,27 @@
+permissions:
+  censor.bypass.adw:
+    default: false
+  censor.bypass.antispam:
+    default: false
+  censor.bypass.badwords:
+    default: false
+  censor.bypass.capslock:
+    default: false
+  censor.bypass.ip:
+    default: false
+  censor.bypass.chatclear:
+    default: false
+  censor.bypass.pmCheck:
+    default: false
+  censor.update:
+    default: false
+  censor.warning:
+    default: false
+  censor.command.chatclear:
+    default: false
+  censor.command.reload:
+    default: false
+  censor.command.setlang:
+    default: false
+  censor.command.tab.action:
+    default: false
