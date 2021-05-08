@@ -1,0 +1,47 @@
+permissions:
+  censor.*:
+    default: false
+    children:
+      censor.update: true
+      censor.warning: true
+      censor.command.chatclear: true
+      censor.command.reload: true
+      censor.command.setlang: true
+      censor.command.tab.action: true
+      censor.bypass.*: true
+  censor.bypass.*:
+    default: op
+    children:
+      censor.bypass.chatclear: true
+      censor.bypass.adw: true
+      censor.bypass.antispam: true
+      censor.bypass.badwords: true
+      censor.bypass.capslock: true
+      censor.bypass.ip: true
+      censor.bypass.pmCheck: true
+  censor.bypass.chatclear:
+    default: op
+  censor.bypass.adw:
+    default: op
+  censor.bypass.antispam:
+    default: op
+  censor.bypass.badwords:
+    default: op
+  censor.bypass.capslock:
+    default: op
+  censor.bypass.ip:
+    default: op
+  censor.bypass.pmCheck:
+    default: op
+  censor.update:
+    default: op
+  censor.warning:
+    default: op
+  censor.command.chatclear:
+    default: op
+  censor.command.reload:
+    default: op
+  censor.command.setlang:
+    default: op
+  censor.command.tab.action:
+    default: op
