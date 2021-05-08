@@ -1,0 +1,21 @@
+replace: "******"
+chatclear_notifier: "&aChat wurde von [Spieler] gelöscht"
+capslock_notifier: "Ups... Sie schreiben mehr Buchstaben mit Feststelltaste &7(&6minimal ist: &e[sensitive] &6aber Sie schreiben&7: &e[you_write]&7)"
+antispam_notifier: "Bitte wiederholen Sie die gleiche Meldung nicht!"
+adw_notifier: "Dieser Server blockiert Url-Links"
+ip_notifier: "Dieser Server blockiert die IP-Adresse eines anderen Servers!"
+plugin_reloaded: "Plugin wurde erfolgreich geladen!"
+no_permissions: "Sie haben nicht die erforderlichen Genehmigungen!"
+warning_to_team: "&7[&e[server]&7] &4WARNUNG  &7Player &e[player] &7schreibt &c[word] !"
+
+commands:
+  command_setlang_success: "&aDie Konfigurationssprache wurde auf eingestellt [lang] !"
+  command_setlang_usage_error: "&cError /censor setlang <lang>"
+  command_setlang_lang_error: "&cDiese Sprache [lang] existiert nicht!"
+  argument-zero:
+    - "&a=========== [CensorReloaded] ==========="
+    - "&eAlle verfügbaren Befehle !"
+    - "&6/censor chatclear - Leert den Chat für Spieler !"
+    - "&6/censor reload - Configs neu laden"
+    - "&6/censor setlang <lang> - This command sets language !"
+    - "&a=========== [CensorReloaded] ==========="
