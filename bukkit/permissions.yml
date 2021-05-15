@@ -14,7 +14,8 @@ permissions:
     children:
       censor.bypass.chatclear: true
       censor.bypass.adw: true
-      censor.bypass.antispam: true
+      censor.bypass.repated.messages: true
+      censor.bypass.time.between.messages: true
       censor.bypass.badwords: true
       censor.bypass.capslock: true
       censor.bypass.ip: true
@@ -23,7 +24,9 @@ permissions:
     default: op
   censor.bypass.adw:
     default: op
-  censor.bypass.antispam:
+  censor.bypass.repeated.messages:
+    default: op
+  censor,bypass.time.between.messages:
     default: op
   censor.bypass.badwords:
     default: op
