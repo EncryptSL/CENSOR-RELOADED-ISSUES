@@ -1,7 +1,9 @@
 permissions:
   censor.bypass.adw:
     default: false
-  censor.bypass.antispam:
+  censor.bypass.repated.messages:
+    default: false
+  censor.bypass.time.between.messages:
     default: false
   censor.bypass.badwords:
     default: false
