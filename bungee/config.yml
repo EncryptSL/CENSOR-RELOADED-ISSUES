@@ -16,7 +16,7 @@ CensorReloaded:
     checkIPAddress: true
     checkWebSites: true
   click_actions:
-    show_component: "&6PUNISH &7=> &e[command]"
+    show_component: "<#B00B13>PUNISH <#ffdb00>=> <#E3FFFF>[command]"
     swear:
       punish: "/mute [player] 5m You are more toxic guy, chill !"
     ip_address:
