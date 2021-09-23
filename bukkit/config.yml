@@ -25,10 +25,9 @@ CensorReloaded:
       punish: "/ban [player] 3d This server not allowing sending websites !"
   filters:
     message_percentage_similarity: 80
-    time_between_messages: 5000
     caps_sensitive: 15
     websites_rgx:
       - (http\:\/\/|https\:\/\/)?([a-z0-9\-\s\.\W\s\S\_]*\.)+[a-z0-9\s][a-z0-9\-\s\.]*
       - ^(.* + \W|\d|_|.*|)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)+( .*)?$
       - ([a-z\_\S]*[\#\.\$\@\!|,|\_|\€]+(\w{2,4}))
-    ip_address_rgx: '^(.* + \W|\d|_|.*)?\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d|\_|.*|)(\#|\.|\,\_\-\ \ \W|\d|\_|.*|)\d{1,3}(\W|\d\_|.*)?$'
+    ip_address_rgx: '\d{1,3}[.|#|,]?\d{1,3}?[.|#|,]\d{1,3}[.|#|,]\d{1,3}|[:]\d{1,5}'
