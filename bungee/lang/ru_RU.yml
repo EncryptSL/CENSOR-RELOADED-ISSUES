@@ -1,0 +1,21 @@
+replace: "******"
+chatclear_notifier: "&aЧат был очищен игроком [player]"
+capslock_notifier: "Ты написал больше букв с CAPS LOCK &7(&6минимум: &e[sensitive] &6но ты написал&7: &e[you_write]&7)"
+repeated_messages_notifier: "Не повторяйте сообщения!"
+adw_notifier: "Этот сервер блокирует сообщения содержащие ссылку"
+ip_notifier: "Этот сервер блокирует сообщения содержащие айпи другого сервера"
+plugin_reloaded: "Плагин и конфигурация успешно перезагружены"
+no_permissions: "У тебя нету прав для выполнения этой команды"
+warning_to_team: "&7[&e[server]&7] &4Предупреждение! &7Игрок &e[player] &7написал &c[word] !"
+
+commands:
+  command_setlang_success: "&aКонфигурация языка установлена на  [lang] !"
+  command_setlang_usage_error: "&cОшибка! Правильное использование: /censor setlang <язык>"
+  command_setlang_lang_error: "&cЯзык [lang] не существует!"
+  argument-zero:
+    - "&a=========== [CensorReloaded] ==========="
+    - "&eВсе доступные команды!"
+    - "&6/censor chatclear - Очищает чат"
+    - "&6/censor reload - Перезагружает конфигурацию"
+    - "&6/censor setlang <язык> - Устанавливает язык"
+    - "&a=========== [CensorReloaded] ==========="
