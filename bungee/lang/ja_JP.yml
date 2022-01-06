@@ -1,0 +1,21 @@
+replace: "******"
+chatclear_notifier: "&a [player] はチャットルームのメッセージをクリアしました"
+capslock_notifier: "大文字が多すぎます... &7(&6最小限度: &e[sensitive] &6現在&7: &e[you_write]&7)"
+repeated_messages_notifier: "同じメッセージなどを繰り返さないでください !"
+adw_notifier: "すみませんが....URLリンクを書いては禁止です"
+ip_notifier: "すみませんが....IPアドレスを書いては禁止です !"
+plugin_reloaded: "プラグインのリロードーを完成しました !"
+no_permissions: "必要な権限がありません !"
+warning_to_team: "&7[&e[server]&7] &4警告 &7プレーヤー &e[player] &7は &c[word] &7を書いた!"
+
+commands:
+  command_setlang_success: "&a言語は [lang] に設定されました  !"
+  command_setlang_usage_error: "&エラーが發生しました, /censor setlang <lang>"
+  command_setlang_lang_error: "&cこの言語 [lang] は存在しません !"
+  argument-zero:
+    - "&a=========== [CensorReloaded] ==========="
+    - "&e使用可能なコマンド !"
+    - "&6/censor chatclear - プレイヤーのチャットルームをクリアします !"
+    - "&6/censor reload - プラグインをリロードーします"
+    - "&6/censor setlang <lang> - 言語を設定します !"
+    - "&a=========== [CensorReloaded] ==========="
