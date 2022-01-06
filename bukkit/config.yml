@@ -11,7 +11,6 @@ CensorReloaded:
   node_module:
     checkPrivateCommands: true
     checkRepeatedMessages: true
-    checkAdvancedSpam: true
     checkSwear: true
     checkIPAddress: true
     checkWebSites: true
