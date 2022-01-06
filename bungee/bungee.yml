@@ -1,0 +1,38 @@
+main: ${project.groupId}.${project.artifactId}
+name: ${project.parent.artifactId}
+prefix: ${project.parent.artifactId}
+version: ${project.parent.version}
+author: EncryptSL
+website: ${project.url}
+description: ${project.description}
+
+commands:
+  censor:
+    description: "This command show plugin commands !"
+permissions:
+  censor.bypass.adw:
+    default: false
+  censor.bypass.repated.messages:
+    default: false
+  censor.bypass.badwords:
+    default: false
+  censor.bypass.capslock:
+    default: false
+  censor.bypass.ip:
+    default: false
+  censor.bypass.chatclear:
+    default: false
+  censor.bypass.pmCheck:
+    default: false
+  censor.update:
+    default: false
+  censor.warning:
+    default: false
+  censor.command.chatclear:
+    default: false
+  censor.command.reload:
+    default: false
+  censor.command.setlang:
+    default: false
+  censor.command.tab.action:
+    default: false
