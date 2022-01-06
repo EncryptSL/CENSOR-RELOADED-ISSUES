@@ -1,0 +1,21 @@
+replace: '******'
+chatclear_notifier: '&a聊天已被 [player] 清除'
+capslock_notifier: '太多大楷字母.. &7(&6最少: &e[sensitive] &6但你寫了&7: &e[you_write]&7)'
+repeated_messages_notifier: 請勿重複同一樣或者類似的文字，禁止洗版!
+adw_notifier: 伺服器禁止URL連結
+ip_notifier: 保障網絡安全，伺服器禁止聊天欄填寫任何ip地址!
+plugin_reloaded: 插件已經重新讀取!
+no_permissions: 您沒有權限!
+warning_to_team: '&7[&e[server]&7] &4警告 &7玩家 &e[player] &7寫了 &c[word] !'
+
+commands:
+  command_setlang_success: '&a語言已經變更為 [lang] !'
+  command_setlang_usage_error: '&c錯誤 /censor setlang <lang>'
+  command_setlang_lang_error: '&c此語言 [lang] 並不存在!'
+  argument-zero:
+    - '&a=========== [CensorReloaded] ==========='
+    - '&e所有可用指令 !'
+    - '&6/censor chatclear - 清除玩家聊天室 !'
+    - '&6/censor reload - 重新讀取插件'
+    - '&6/censor setlang <lang> - 設定插件語言 !'
+    - '&a=========== [CensorReloaded] ==========='
