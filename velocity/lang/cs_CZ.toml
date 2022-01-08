@@ -1,0 +1,22 @@
+replace = "******"
+chatclear_notifier = "&aByl vymazan chat hráčem [player]"
+capslock_notifier = "&cJej, napsal jsi vice pismen capslockem &7(&6minimum je: &e[sensitive] &6ale ty jsi napsal&7: &e[you_write]&7)"
+repeated_messages_notifier = "Prosím neopakuj stejné nebo podobné zprávy !"
+adw_notifier = "Tento server blokuje url odkazy !"
+ip_notifier = "Tento server blokuje ip addresy jiných serverů !"
+plugin_reloaded = "Plugin byl úspěšně znovu načten !"
+no_permissions = "Nemáš dostatečná oprávnění !"
+warning_to_team = "&7[&e[server]&7] &4VAROVANÍ &7Hráč &e[player] &7napsal &c[word] !"
+
+[commands]
+command_setlang_success = "&aJazyk konfigurace byl nastaven na [lang] !"
+command_setlang_usage_error = "&cChyba /censor setlang <lang>"
+command_setlang_lang_error = "&cTento [lang] jazyk neexistuje !"
+argument-zero = [
+    "&a=========== [CensorReloaded] ===========",
+    "&eVšechny dostupné příkazy !",
+    "&6/censor chatclear - Vyčistí hráčům chat !",
+    "&6/censor reload - Znovu načte konfiguraci",
+    "&6/censor setlang <lang> - Nastaví jazyk na jaký chceš !",
+    "&a=========== [CensorReloaded] ==========="
+]
