@@ -1,0 +1,12 @@
+censor.bypass.adw: - Bypass check Websites links
+censor.bypass.repated.messages: - Bypass check repeated message
+censor.bypass.badwords: - Bypass check badwords
+censor.bypass.capslock: - Bypas check capslock
+censor.bypass.ip: - Bypass check ip
+censor.bypass.chatclear: - Bypass clearchat
+censor.bypass.pmCheck: - Bypass check in commands
+censor.update: - This permissions show update notify message
+censor.warning: - This permissions show warning message for admins
+censor.command.chatclear: - This permissions give access for usage
+censor.command.reload: - This permissions give access for usage
+censor.command.tab.action: - This permissions give access for suggestion for censor command and subcommands
