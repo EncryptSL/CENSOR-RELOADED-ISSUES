@@ -3,8 +3,6 @@ permissions:
     default: false
   censor.bypass.repated.messages:
     default: false
-  censor.bypass.time.between.messages:
-    default: false
   censor.bypass.badwords:
     default: false
   censor.bypass.capslock:
