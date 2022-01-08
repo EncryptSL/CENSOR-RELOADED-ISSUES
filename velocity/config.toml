@@ -1,0 +1,41 @@
+[CensorReloaded]
+  node_check_cmd = [ "/msg", "/pm", "/tell", "/r", "/w" ]
+  node_website_whitelist = [
+    "www.example.com",
+    "https://www.example.com",
+    "http://www.exmaple.com"
+  ]
+
+[setup]
+    prefix = "&8(&6CENSOR-RELOADED&8) &7> &e"
+    lang = "en_US"
+    bstats = true
+
+[node_module]
+    checkPrivateCommands = true
+    checkRepeatedMessages = true
+    checkSwear = true
+    checkIPAddress = true
+    checkWebSites = true
+
+[click_actions]
+    show_component = "&4PUNISH &c=> &4[command]"
+
+[click_actions.swear]
+    punish = "/mute [player] 5m You are more toxic guy, chill !"
+
+[click_actions.ip_address]
+    punish = "/ban [player] 3d This server not allowing sending ip address !"
+
+[click_actions.websites]
+    punish = "/ban [player] 3d This server not allowing sending websites !"
+
+[filters]
+  message_percentage_similarity = 80
+    caps_sensitive = 15
+    websites_rgx = [
+      "(http\\:\\/\\/|https\\:\\/\\/)?([a-z0-9\\-\\s\\.\\W\\s\\S\\_]*\\.)+[a-z0-9\\s][a-z0-9\\-\\s\\.]*",
+      "^(.* + \\W|\\d|_|.*|)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)+( .*)?$",
+      "([a-z\\_\\S]*[\\#\\.\\$\\@\\!|,|\\_|\\€]+(\\w{2,4}))"
+    ]
+    ip_address_rgx = "\\d{1,3}[.|#|,]?\\d{1,3}?[.|#|,]\\d{1,3}[.|#|,]\\d{1,3}|[:]\\d{1,5}"
