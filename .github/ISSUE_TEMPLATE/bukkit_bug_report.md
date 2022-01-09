@@ -11,8 +11,10 @@ assignees: EncryptSL
 Send whats wrong
 
 **MineCraft Server version and Platform:**
- - Platform: [e.g. Spigot]
+ - Platform: Spigot
  - Server Version: [e.g. 1.16.1]
+ - Plugin Version: [e.g. 1.x.x]
+ - Java Version
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the problem here log or something
