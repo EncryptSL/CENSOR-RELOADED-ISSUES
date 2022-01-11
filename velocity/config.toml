@@ -10,6 +10,7 @@
     prefix = "&8(&6CENSOR-RELOADED&8) &7> &e"
     lang = "en_US"
     bstats = true
+    replace_caps_message_to_lower_case = true
 
 [node_module]
     checkPrivateCommands = true
@@ -19,7 +20,7 @@
     checkWebSites = true
 
 [click_actions]
-    show_component = "&4PUNISH &c=> &4[command]"
+    show_component = "&6PUNISH &7=> &e[command]"
 
 [click_actions.swear]
     punish = "/mute [player] 5m You are more toxic guy, chill !"
