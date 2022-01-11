@@ -3,6 +3,7 @@ CensorReloaded:
     prefix: "&8(&6CENSOR-RELOADED&8) &7> &e"
     lang: "en_US"
     bstats: true
+    replace_caps_message_to_lower_case: true
   node_check_cmd: [/msg, /pm, /tell, /r, /w]
   node_website_whitelist:
     - www.example.com
@@ -24,7 +25,6 @@ CensorReloaded:
       punish: "/ban [player] 3d This server not allowing sending websites !"
   filters:
     message_percentage_similarity: 80
-    time_between_messages: 5000
     caps_sensitive: 15
     websites_rgx:
       - (http\:\/\/|https\:\/\/)?([a-z0-9\-\s\.\W\s\S\_]*\.)+[a-z0-9\s][a-z0-9\-\s\.]*
