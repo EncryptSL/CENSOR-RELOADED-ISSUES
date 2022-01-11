@@ -3,6 +3,7 @@ CensorReloaded:
     prefix: "&8(&6CENSOR-RELOADED&8) &7> &e"
     lang: "en_US"
     bstats: true
+    replace_caps_message_to_lower_case: true
   node_check_cmd: [/msg, /pm, /tell, /r, /w]
   node_website_whitelist:
     - www.example.com
